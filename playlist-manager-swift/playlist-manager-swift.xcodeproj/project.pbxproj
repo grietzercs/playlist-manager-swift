@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348451BB2D5EE7F5009E8D4D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 348451BA2D5EE7F5009E8D4D /* Alamofire */; };
+		349FA9772D4CD9BC00A4F34B /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 349FA9762D4CD9BC00A4F34B /* JWTDecode */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349FA9592D4C87CA00A4F34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349FA93D2D4C87C600A4F34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349FA9442D4C87C700A4F34B;
+			remoteInfo = "playlist-manager-swift";
+		};
+		349FA9632D4C87CA00A4F34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349FA93D2D4C87C600A4F34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349FA9442D4C87C700A4F34B;
+			remoteInfo = "playlist-manager-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34D9221B2D5EE4310031543C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		349FA9452D4C87C700A4F34B /* playlist-manager-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playlist-manager-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349FA9582D4C87CA00A4F34B /* playlist-manager-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-manager-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349FA9622D4C87CA00A4F34B /* playlist-manager-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-manager-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		34DEDB312D9F8A6B00E7478C /* Exceptions for "playlist-manager-swift" folder in "playlist-manager-swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 349FA9442D4C87C700A4F34B /* playlist-manager-swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		349FA9472D4C87C700A4F34B /* playlist-manager-swift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				34DEDB312D9F8A6B00E7478C /* Exceptions for "playlist-manager-swift" folder in "playlist-manager-swift" target */,
+			);
+			path = "playlist-manager-swift";
+			sourceTree = "<group>";
+		};
+		349FA95B2D4C87CA00A4F34B /* playlist-manager-swiftTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "playlist-manager-swiftTests";
+			sourceTree = "<group>";
+		};
+		349FA9652D4C87CA00A4F34B /* playlist-manager-swiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "playlist-manager-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349FA9422D4C87C700A4F34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349FA9772D4CD9BC00A4F34B /* JWTDecode in Frameworks */,
+				348451BB2D5EE7F5009E8D4D /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349FA9552D4C87CA00A4F34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349FA95F2D4C87CA00A4F34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349FA93C2D4C87C600A4F34B = {
+			isa = PBXGroup;
+			children = (
+				349FA9472D4C87C700A4F34B /* playlist-manager-swift */,
+				349FA95B2D4C87CA00A4F34B /* playlist-manager-swiftTests */,
+				349FA9652D4C87CA00A4F34B /* playlist-manager-swiftUITests */,
+				349FA9462D4C87C700A4F34B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349FA9462D4C87C700A4F34B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349FA9452D4C87C700A4F34B /* playlist-manager-swift.app */,
+				349FA9582D4C87CA00A4F34B /* playlist-manager-swiftTests.xctest */,
+				349FA9622D4C87CA00A4F34B /* playlist-manager-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349FA9442D4C87C700A4F34B /* playlist-manager-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349FA96C2D4C87CA00A4F34B /* Build configuration list for PBXNativeTarget "playlist-manager-swift" */;
+			buildPhases = (
+				349FA9412D4C87C700A4F34B /* Sources */,
+				349FA9422D4C87C700A4F34B /* Frameworks */,
+				349FA9432D4C87C700A4F34B /* Resources */,
+				34D9221B2D5EE4310031543C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				349FA9472D4C87C700A4F34B /* playlist-manager-swift */,
+			);
+			name = "playlist-manager-swift";
+			packageProductDependencies = (
+				349FA9762D4CD9BC00A4F34B /* JWTDecode */,
+				348451BA2D5EE7F5009E8D4D /* Alamofire */,
+			);
+			productName = "playlist-manager-swift";
+			productReference = 349FA9452D4C87C700A4F34B /* playlist-manager-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349FA9572D4C87CA00A4F34B /* playlist-manager-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349FA96F2D4C87CA00A4F34B /* Build configuration list for PBXNativeTarget "playlist-manager-swiftTests" */;
+			buildPhases = (
+				349FA9542D4C87CA00A4F34B /* Sources */,
+				349FA9552D4C87CA00A4F34B /* Frameworks */,
+				349FA9562D4C87CA00A4F34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349FA95A2D4C87CA00A4F34B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				349FA95B2D4C87CA00A4F34B /* playlist-manager-swiftTests */,
+			);
+			name = "playlist-manager-swiftTests";
+			packageProductDependencies = (
+			);
+			productName = "playlist-manager-swiftTests";
+			productReference = 349FA9582D4C87CA00A4F34B /* playlist-manager-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349FA9612D4C87CA00A4F34B /* playlist-manager-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349FA9722D4C87CA00A4F34B /* Build configuration list for PBXNativeTarget "playlist-manager-swiftUITests" */;
+			buildPhases = (
+				349FA95E2D4C87CA00A4F34B /* Sources */,
+				349FA95F2D4C87CA00A4F34B /* Frameworks */,
+				349FA9602D4C87CA00A4F34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349FA9642D4C87CA00A4F34B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				349FA9652D4C87CA00A4F34B /* playlist-manager-swiftUITests */,
+			);
+			name = "playlist-manager-swiftUITests";
+			packageProductDependencies = (
+			);
+			productName = "playlist-manager-swiftUITests";
+			productReference = 349FA9622D4C87CA00A4F34B /* playlist-manager-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349FA93D2D4C87C600A4F34B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					349FA9442D4C87C700A4F34B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					349FA9572D4C87CA00A4F34B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 349FA9442D4C87C700A4F34B;
+					};
+					349FA9612D4C87CA00A4F34B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 349FA9442D4C87C700A4F34B;
+					};
+				};
+			};
+			buildConfigurationList = 349FA9402D4C87C600A4F34B /* Build configuration list for PBXProject "playlist-manager-swift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349FA93C2D4C87C600A4F34B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				349FA9752D4CD9BC00A4F34B /* XCRemoteSwiftPackageReference "JWTDecode" */,
+				348451B92D5EE7F5009E8D4D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 349FA9462D4C87C700A4F34B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349FA9442D4C87C700A4F34B /* playlist-manager-swift */,
+				349FA9572D4C87CA00A4F34B /* playlist-manager-swiftTests */,
+				349FA9612D4C87CA00A4F34B /* playlist-manager-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349FA9432D4C87C700A4F34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349FA9562D4C87CA00A4F34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349FA9602D4C87CA00A4F34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349FA9412D4C87C700A4F34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349FA9542D4C87CA00A4F34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349FA95E2D4C87CA00A4F34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349FA95A2D4C87CA00A4F34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349FA9442D4C87C700A4F34B /* playlist-manager-swift */;
+			targetProxy = 349FA9592D4C87CA00A4F34B /* PBXContainerItemProxy */;
+		};
+		349FA9642D4C87CA00A4F34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349FA9442D4C87C700A4F34B /* playlist-manager-swift */;
+			targetProxy = 349FA9632D4C87CA00A4F34B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349FA96A2D4C87CA00A4F34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349FA96B2D4C87CA00A4F34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		349FA96D2D4C87CA00A4F34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "playlist-manager-swift/playlist_manager_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"playlist-manager-swift/Preview Content\"";
+				DEVELOPMENT_TEAM = K43CY7TACG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "playlist-manager-swift/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grietzercs.playlist-manager-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		349FA96E2D4C87CA00A4F34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "playlist-manager-swift/playlist_manager_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"playlist-manager-swift/Preview Content\"";
+				DEVELOPMENT_TEAM = K43CY7TACG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "playlist-manager-swift/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grietzercs.playlist-manager-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		349FA9702D4C87CA00A4F34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K43CY7TACG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grietzercs.playlist-manager-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-manager-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-manager-swift";
+			};
+			name = Debug;
+		};
+		349FA9712D4C87CA00A4F34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K43CY7TACG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grietzercs.playlist-manager-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-manager-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-manager-swift";
+			};
+			name = Release;
+		};
+		349FA9732D4C87CA00A4F34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K43CY7TACG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grietzercs.playlist-manager-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "playlist-manager-swift";
+			};
+			name = Debug;
+		};
+		349FA9742D4C87CA00A4F34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K43CY7TACG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "grietzercs.playlist-manager-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "playlist-manager-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349FA9402D4C87C600A4F34B /* Build configuration list for PBXProject "playlist-manager-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349FA96A2D4C87CA00A4F34B /* Debug */,
+				349FA96B2D4C87CA00A4F34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349FA96C2D4C87CA00A4F34B /* Build configuration list for PBXNativeTarget "playlist-manager-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349FA96D2D4C87CA00A4F34B /* Debug */,
+				349FA96E2D4C87CA00A4F34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349FA96F2D4C87CA00A4F34B /* Build configuration list for PBXNativeTarget "playlist-manager-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349FA9702D4C87CA00A4F34B /* Debug */,
+				349FA9712D4C87CA00A4F34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349FA9722D4C87CA00A4F34B /* Build configuration list for PBXNativeTarget "playlist-manager-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349FA9732D4C87CA00A4F34B /* Debug */,
+				349FA9742D4C87CA00A4F34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		348451B92D5EE7F5009E8D4D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		349FA9752D4CD9BC00A4F34B /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		348451BA2D5EE7F5009E8D4D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 348451B92D5EE7F5009E8D4D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		349FA9762D4CD9BC00A4F34B /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 349FA9752D4CD9BC00A4F34B /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 349FA93D2D4C87C600A4F34B /* Project object */;
+}
